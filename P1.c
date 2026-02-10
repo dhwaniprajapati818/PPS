@@ -7,7 +7,7 @@
     int b;
     
     printf("\n Enter value of a and b");
-    scanf("%d ,%d , &a,&b");
+    scanf("%d ,%d ", &a,&b);
     
     printf("\n sum is = %d" , a+b);
     printf("\n subtraction is = %d" , a-b);
