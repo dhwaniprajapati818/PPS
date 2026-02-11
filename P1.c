@@ -1,14 +1,16 @@
 #include <stdio.h>
  int main()
 {
-    printf("\n Arithmatic operation : ");
-    
+    printf("\n Arithmatic operation ");
+
     int a;
     int b;
-    
-    printf("\n Enter value of a and b : ");
-    scanf("%d ,%d ", &a,&b);
-    
+
+    printf("\n Enter value of a : ");
+    scanf("%d", &a);
+    printf("\n Enter value of b : ");
+    scanf("%d", &b);
+
     printf("\n sum is = %d" , a+b);
     printf("\n subtraction is = %d" , a-b);
     printf("\n multipication is = %d" , a*b);
@@ -17,3 +19,4 @@
 
     return 0;
 }
+
