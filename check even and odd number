@@ -9,12 +9,12 @@ int main()
     
     if(a%2==0)
     {
-        printf("a is even number ");
+        printf("%d is even number ");
 
     }
     else
     {
-        printf("a is odd number ");
+        printf("%d is odd number ");
         
     }
 
