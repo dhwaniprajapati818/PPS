@@ -1,0 +1,29 @@
+#include <stdio.h>
+int main() 
+{
+    char c;
+    
+    printf("Enter any value :");
+    scanf("%c", &c);
+    
+    if(c>='a' && c<='z')
+    {
+        printf("%c is Loware charector",c);
+    }
+   else if(c>='A' && c<='Z')
+   {
+     printf("%c is Upper charector",c);
+   } 
+   else if((c>='0' && c<='9'))
+   {
+       printf("%c is a number", c);
+      
+   }
+   else
+   
+ {
+     printf("%c is a symbol", c);
+ }
+
+    return 0;
+}
