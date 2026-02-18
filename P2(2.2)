@@ -7,18 +7,18 @@
 
  float per;
 
- printf("\nEnter a PPS marks:");
+ printf("\n Enter a PPS marks:");
 
  scanf("%d",&m1); 
 
- while(m1<0 || 1>100)
+ while(m1<0 || m1>100)
  {
   printf("Please Enter valid Marks       [0-100]");
-  printf("\nEnter a PPS marks:");
+  printf("\n Enter a PPS marks:");
   scanf("%d",&m1);
 
 
-  printf("\nEnter a maths marks :");
+  printf("\n Enter a maths marks :");
 
   scanf("%d",&m2);
 
@@ -26,34 +26,34 @@
   {
   printf("Enter a valid marks");
 
-  printf("\nEnter a maths marks:");
+  printf("\n Enter a maths marks:");
 
   scanf("%d",&m2);
  }
 
-  printf("\nEnter a FAI marks:");
+  printf("\n Enter a FAI marks:");
   scanf("%d",&m3);
   while(m3<0 || m3>100)
   {
    printf("Enter a valid marks");
 
-   printf("\nEnter a FAI marks:");
+   printf("\n Enter a FAI marks:");
 
    scanf("%d",&m3);
   }
 
-  printf("\nEnter a ETC marks:");
+  printf("\n Enter a ETC marks:");
 
   scanf("%d",&m4);
 
   while(m4<0 || m4>100)
   {
     printf("Enter a valid marks");
-    printf("\nEnter a ETC marks:");
+    printf("\n Enter a ETC marks:");
     scanf("%d",&m4);
   }
   
-  printf("\nEnter a EGD marks:");
+  printf("\n Enter a EGD marks:");
 
   scanf("%d",&m5);
 
@@ -61,7 +61,7 @@
  {  
   printf("Enter a valid marks [0 -100]");
 
-  printf("\nEnter a EGD marks:");
+  printf("\n Enter a EGD marks:");
 
   scanf("%d",&m5);
  }
