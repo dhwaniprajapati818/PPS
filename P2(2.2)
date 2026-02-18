@@ -87,7 +87,8 @@ else if(per>=75){
 else if(per>=60){
  printf("Grade:C");
 }
-else if(per>=40){
+else if(per>=40)
+{
  printf("Grade:D");
 }
 else
